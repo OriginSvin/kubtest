@@ -6,6 +6,6 @@ spec:
   type: LoadBalancer
   ports:
   - port: 80
-    targetPort: порт_пода
+    targetPort: 32378
   selector:
     app: nginx
