@@ -16,7 +16,7 @@ metadata:
   labels:
     # You should set the "kubernetes.io/service-name" label.
     # Set its value to match the name of the Service
-    kubernetes.io/service-name: notblabla
+    kubernetes.io/service-name: dev-pg-postgresql
 addressType: IPv4
 ports:
   - name: '' # empty because port 9376 is not assigned as a well-known
